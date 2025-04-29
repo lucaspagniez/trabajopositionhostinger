@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+* {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.page-hostinger{
+    position: relative;
+
+
+}
+
+.header-hostinger{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 100vw;
+    height: 150px;
+    gap: 15px;
+    align-items: center;
+    justify-content: start;
+    position: fixed;
+    z-index: 2;
+    position: fixed;
+    border-bottom:1px solid rgb(236, 236, 236);
+
+
+}
+
+
+.hostinger-logo{
+    width: 40px;
+    padding-left: 20px;
+}
+
+
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding-left: 100px;
+
+}
+
+
+.links{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: black;
+    text-decoration: none;
+
+}
+
+a, a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+
+.button-link-header{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    font-size: 15px;
+    border: none;
+    text-decoration: none;
+    background-color: white;
+}
+
+.bi-chevron-down{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:  black;
+
+}
+.parrafo-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #DEF4F0;
+    color: #008361;
+    width: 50px;
+    height: 25px;
+    border-radius: 10%;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+
+
+
+
+.right-content{
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    
+    align-items: center;
+    justify-content: end;
+    padding-right: 60px;
+    gap: 50px;
+
+}
+
+.select-languaje{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 20px;
+
+}
+
+.languaje-a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 5%;
+    border:none;
+    color:#1D1E20;
+    font-weight: 700;
+    background-color: white;
+}
+.eeuu-flag{
+    width: 30px;
+}
+
+.log-in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 9px 15px;
+    width: 50px;
+    height: 20px;
+    font-weight: 700;
+    color: #1D1E20;
+    border: 3px solid #1D1E20;
+    border-radius: 12%;
+}
+
+
+
+.parrafo-ejemplo{
+    background-color: aliceblue;
+}
+
+
+
+
+.link-whatsapp{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(25, 186, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+.bi-whatsapp{
+    font-size: 25px;
+    color: white;
+}
